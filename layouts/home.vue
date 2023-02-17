@@ -25,15 +25,16 @@
                 to="/projects"
                 class="nav-list__link nav-list__link--active"
               >
-                Projects
+                Проекты
               </NuxtLink>
             </li>
             <li class="nav-list__item">
-              <NuxtLink to="/skills" class="nav-list__link">Skills</NuxtLink>
+              <NuxtLink to="/skills" class="nav-list__link">Навыки</NuxtLink>
             </li>
             <li class="nav-list__item">
               <NuxtLink href="/contacts" class="nav-list__link"
-                >Contacts</NuxtLink
+                >Контакты
+            </NuxtLink
               >
             </li>
           </ul>
