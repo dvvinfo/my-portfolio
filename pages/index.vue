@@ -1,7 +1,13 @@
 <template>
-  <div><h2>home</h2></div>
+  <div>
+    <h2>главная</h2>
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "home",
+});
+</script>
 
 <style scoped></style>

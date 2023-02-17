@@ -240,11 +240,11 @@ html, body {
     opacity: 0.8;
 }
 
-.nav-list__link--active {
+.router-link-exact-active {
     position: relative;
 }
 
-.nav-list__link--active::before {
+.router-link-exact-active::before {
     content: "";
 
     position: absolute;
@@ -311,7 +311,7 @@ html, body {
     align-items: center;
 
     background-color: var(--dark-bg);
-    background-image: url('./../img/header-bg.png');
+    background-image: url('../../assets/img/header-bg.png');
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center center;
