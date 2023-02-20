@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "imgName": "wheater",
+    "title": "SPA Местная погода",
+    "imgNameDetails": ["wheater-1"],
+    "skillsDetails": ["Vue 3", "Vite", "API mapbox и openweathermap"],
+    "url": "https://github.com/dvvinfo/weather-app-vue-3",
+    "description": "Это SPA приложение погоды на Vue 3 и Vite с использованием API mapbox и openweathermap.Местная погода позволяет вам отслеживать текущую и будущую погоду из городов по вашему выбору."
+  },
+  {
+    "id": 1,
+    "imgName": "ui-kit",
+    "title": "UI-KIT Vue компонентов",
+    "imgNameDetails": ["ui-kit-1"],
+    "skillsDetails": ["Vue 3", "Vite"],
+    "url": "https://github.com/dvvinfo/ui-kit-vue",
+    "description": "В данном UI KIT VUE 3 представлены переиспользываемые компоненты.Кнопки(Buttons), чекбоксы(Checkboxes), свич(Switches), радио кнопки(RadioButtons), прогресс бар(Progress), интпуты(Inputs(), текст эрия(TextAreas), табы(Tabs), таблицы(Tables), модальное окно(Modals).Релизованные на VUE 3."
+  },
+  {
+    "id": 2,
+    "imgName": "todo",
+    "title": "ToDo",
+    "imgNameDetails": ["todo-1"],
+    "skillsDetails": ["Vue 3", "Vite"],
+    "url": "https://github.com/dvvinfo/todos-vue",
+    "description": "Vue Todos - это простое в использовании приложение для отслеживания, созданное для Vue 3. Отслеживайте выполнение своих ежедневных задач с помощью этого трекера дел с возможностью сохранения, завершения, редактирования и удаления задач."
+  },
+  {
+    "id": 3,
+    "imgName": "pecarstas",
+    "title": "Сайт Академия Покера",
+    "imgNameDetails": ["pecarstas-1"],
+    "skillsDetails": ["HTML", "CSS", "Bootstrap", "Java Script"],
+    "url": "https://github.com/dvvinfo/pekarstas",
+    "description": "Сайт Академия Покера реазован с помощью Bootstrap "
+  },
+  {
+    "id": 4,
+    "imgName": "gainet",
+    "title": "Сайт Gainet",
+    "imgNameDetails": ["gainet-1"],
+    "skillsDetails": ["HTML", "CSS", "Java Script"],
+    "url": "https://github.com/dvvinfo/gainnet-landing",
+    "description": "Сайт проекта Gainet реализован на чистом CSS HTML и Java Script "
+  }
+]

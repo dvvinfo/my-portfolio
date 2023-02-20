@@ -22,16 +22,17 @@ const skills = [
 ];
 </script>
 
-<style scoped>
+<style >
 .skills{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 .skill{
     flex-shrink: 1;
-    padding: 0 11px;
+    padding: 5px 10px;
    border-radius: 4px;
    color: var(--white);
    background-color: var(--purple);
