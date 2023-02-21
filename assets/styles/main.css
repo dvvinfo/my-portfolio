@@ -335,7 +335,7 @@ a{
   align-items: center;
 
   background-color: var(--dark-bg);
-  background-image: url("../../assets/img/header-bg.png");
+  background-image: url("/img/header-bg.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -417,11 +417,14 @@ a{
   background-color: var(--white);
   color: var(--blackpure);
 
-  transition: opacity 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .btn-outline:hover {
   opacity: 0.8;
+  background: var(--purple);
+  color: var(--white);
+  border: 1px solid var(--purple);
 }
 
 .btn-outline:active {

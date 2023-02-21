@@ -1,10 +1,13 @@
 <template>
   <div class="container">
     <div class="project-details">
+      <div class="breadcrumbs">
+        <NuxtLink to="/projects" class="btn-outline "> К проектам </NuxtLink>
+      </div>
       <h1 class="title-1">{{ project.title }}</h1>
 
       <img
-        :src="`/img/projects/${project.imgNameDetails }.png`"
+        :src="`/img/projects/${project.imgNameDetails}.png`"
         alt=""
         class="project-details__cover"
       />
@@ -13,21 +16,38 @@
         {{ project.description }}
       </div>
       <div class="skills">
-    <span class="skill" v-for="(skill, i) of project.skillsDetails" :key="i">{{ skill }}</span>
-  </div>
-
-      <NuxtLink :to="project.url" class="btn-outline">
-        <img src="/img/icons/gitHub-black.svg" alt="" />
-        GitHub repo
-      </NuxtLink>
+        <span
+          class="skill"
+          v-for="(skill, i) of project.skillsDetails"
+          :key="i"
+          >{{ skill }}</span
+        >
+      </div>
+      <div class="btn-wrapper">
+        <NuxtLink :to="project.url" class="btn-outline mr-20">
+          <img src="/img/icons/gitHub-black.svg" alt="" />
+          GitHub repo
+        </NuxtLink>
+        <NuxtLink :to="project.link" class="btn-outline "> Посмотреть </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import projectsData from '../../assets/moki/projects.json'
+import projectsData from "../../assets/moki/projects.json";
 const { id } = useRoute().params;
 const project = ref(projectsData[id]);
 </script>
 
-<style scoped></style>
+<style scoped>
+.btn-wrapper{
+  display: flex;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.breadcrumbs{
+  margin-bottom: 20px;
+}
+</style>
