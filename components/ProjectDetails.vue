@@ -4,13 +4,39 @@
       <NuxtLink to="/projects" class="btn-outline"> К проектам </NuxtLink>
     </div>
     <h1 class="title-1">{{ project.title }}</h1>
+    <div class="slier-wrapper">
+      <Swiper
+      :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
+      :navigation="true"
+      :slides-per-view="1"
+      :loop="true"
+      :effect="'creative'"
+      :autoplay="{
+        delay: 8000,
+        disableOnInteraction: true
+      }"
+      :creative-effect="{
+        prev: {
+          shadow: false,
+          translate: ['-20%', 0, -1]
+        },
+        next: {
+          translate: ['100%', 0, 0]
+        }
+      }"
+    >
+      <SwiperSlide v-for="(img, i) in project.imgNameDetails " :key="i">
+        <div class="project-detail__img">
+      <img
+        :src="`/img/projects/details/${img.detailsImgName}.png`"
+        alt=""
+        class="project-details__cover"
+      />
+    </div>
+      </SwiperSlide>
+    </Swiper>
 
-    <img
-      :src="`/img/projects/${project.imgNameDetails}.png`"
-      alt=""
-      class="project-details__cover"
-    />
-
+    </div>
     <div class="project-details__desc">
       {{ project.description }}
     </div>
@@ -41,6 +67,7 @@ const { project } = defineProps(["project"]);
 <style scoped>
 .btn-wrapper {
   display: flex;
+  flex-shrink: 1;
 }
 .mr-20 {
   margin-right: 20px;
@@ -48,4 +75,26 @@ const { project } = defineProps(["project"]);
 .breadcrumbs {
   margin-bottom: 20px;
 }
+.slier-wrapper{
+  max-width: 100%;
+  margin-bottom: 40px;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  
+}
+@media (max-width: 360px) {
+  .btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mr-20{
+    margin-right: 0;
+  }
+  .project-details__desc {
+    font-size: 20px;
+}
+
+}
+
 </style>

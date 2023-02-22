@@ -3,7 +3,13 @@
     "id": 0,
     "imgName": "wheater",
     "title": "SPA Местная погода",
-    "imgNameDetails": ["wheater-1"],
+    "imgNameDetails": [
+      {"id": 1, "detailsImgName": "wheater-1"},
+      {"id": 2, "detailsImgName": "weather-2"},
+      {"id": 3, "detailsImgName": "weather-3"},
+      {"id": 4, "detailsImgName": "weather-4"},
+      {"id": 5, "detailsImgName": "weather-5"}
+    ],
     "skillsDetails": ["Vue 3", "Vite", "API mapbox и openweathermap"],
     "url": "https://github.com/dvvinfo/weather-app-vue-3",
     "link": "https://dvvinfo-local-weather.netlify.app/",
@@ -13,7 +19,19 @@
     "id": 1,
     "imgName": "ui-kit",
     "title": "UI-KIT Vue компонентов",
-    "imgNameDetails": ["ui-kit-1"],
+    "imgNameDetails": [
+      {"id": 1, "detailsImgName": "ui-kit-1"},
+      {"id": 2, "detailsImgName": "ui-kit-vue-2"},
+      {"id": 3, "detailsImgName": "ui-kit-vue-3"},
+      {"id": 4, "detailsImgName": "ui-kit-vue-4"},
+      {"id": 5, "detailsImgName": "ui-kit-vue-5"},
+      {"id": 6, "detailsImgName": "ui-kit-vue-6"},
+      {"id": 7, "detailsImgName": "ui-kit-vue-7"},
+      {"id": 8, "detailsImgName": "ui-kit-vue-8"},
+      {"id": 9, "detailsImgName": "ui-kit-vue-9"},
+      {"id": 10, "detailsImgName": "ui-kit-vue-10"}
+
+    ],
     "skillsDetails": ["Vue 3", "Vite"],
     "url": "https://github.com/dvvinfo/ui-kit-vue",
     "link": "https://ui-kit-vue.netlify.app/",
@@ -23,7 +41,12 @@
     "id": 2,
     "imgName": "todo",
     "title": "ToDo",
-    "imgNameDetails": ["todo-1"],
+    "imgNameDetails": [
+      {"id": 1, "detailsImgName": "todo-1"},
+      {"id": 2, "detailsImgName": "todo-2"},
+      {"id": 3, "detailsImgName": "todo-3"},
+      {"id": 4, "detailsImgName": "todo-4"}
+    ],
     "skillsDetails": ["Vue 3", "Vite"],
     "url": "https://github.com/dvvinfo/todos-vue",
     "link": "https://dvvinfo-todos.netlify.app/",
@@ -33,7 +56,11 @@
     "id": 3,
     "imgName": "pecarstas",
     "title": "Сайт Академия Покера",
-    "imgNameDetails": ["pecarstas-1"],
+    "imgNameDetails": [
+      {"id": 1, "detailsImgName": "pecarstas-1"},
+      {"id": 2, "detailsImgName": "pecarstac-2"},
+      {"id": 3, "detailsImgName": "pecarstac-3"}
+    ],
     "skillsDetails": ["HTML", "CSS", "Bootstrap", "Java Script"],
     "url": "https://github.com/dvvinfo/pekarstas",
     "link": "https://www.pekarstas.com/",
@@ -43,7 +70,11 @@
     "id": 4,
     "imgName": "gainet",
     "title": "Сайт Gainet",
-    "imgNameDetails": ["gainet-1"],
+    "imgNameDetails": [
+      {"id": 1, "detailsImgName": "gainet-1"},
+      {"id": 2, "detailsImgName": "gainet-2"},
+      {"id": 3, "detailsImgName": "gainet-3"}
+    ],
     "skillsDetails": ["HTML", "CSS", "Java Script"],
     "url": "https://github.com/dvvinfo/gainnet-landing",
     "link": "https://gainnet.ru/",

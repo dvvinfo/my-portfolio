@@ -11,5 +11,8 @@
     "nuxt": "^3.2.0",
     "sass": "^1.58.2",
     "sass-loader": "^13.2.0"
+  },
+  "dependencies": {
+    "nuxt-swiper": "^1.0.0"
   }
 }
