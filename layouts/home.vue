@@ -1,12 +1,16 @@
 <template>
-  <div>
+  <div class="bg" :class="{ dark: isDark }">
     <!-- nav -->
     <nav class="nav">
       <div class="container">
         <div class="nav-row">
           <NuxtLink to="/" class="logo"><strong>Портфолио</strong> </NuxtLink>
 
-          <button class="dark-mode-btn">
+          <button
+            class="dark-mode-btn"
+            :class="{ 'dark-mode-btn--active': isDark }"
+            @click="isDark = !isDark"
+          >
             <img
               src="/img/icons/sun.svg"
               alt="Light mode"
@@ -57,6 +61,37 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+const isDark = ref(false);
+
+// 1. Проверка темной темы на уровне системных настроек
+if (
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches
+) {
+  isDark.value = true;
+}
+
+// 2. Проверка темной темы в localStorage
+if (localStorage.getItem("darkMode") === "dark") {
+  isDark.value = true;
+} else if (localStorage.getItem("darkMode") === "light") {
+  isDark.value = false;
+}
+
+// Если меняются системные настройки, меняем тему
+window
+  .matchMedia("(prefers-color-scheme: dark)")
+  .addEventListener("change", (event) => {
+    const newColorScheme = event.matches ? "dark" : "light";
+
+    if (newColorScheme === "dark") {
+      isDark.value = true;
+      localStorage.setItem("darkMode", "dark");
+    } else {
+      isDark.value = false;
+    }
+  });
+</script>
 
 <style lang="scss" scoped></style>

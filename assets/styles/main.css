@@ -185,6 +185,12 @@ body {
   background-color: var(--page-bg);
   color: var(--text-color);
 }
+.bg{
+  background-color: var(--page-bg);
+  color: var(--text-color);
+  transition: all 0.3s;
+}
+
 a{
     color: var(--purple);
 }
@@ -417,6 +423,7 @@ a{
   display: flex;
   column-gap: 10px;
   align-items: center;
+  justify-content: center;
 
   height: 48px;
   padding: 12px 20px;
@@ -648,8 +655,11 @@ a{
   .slier-wrapper{
     height: 300px
   }
-  .project-details__cover {
+  .project-detail__img{
     height: 300px;
+  }
+  .project-details__cover {
+    height: 93%;
     object-fit: cover;
 
   }
