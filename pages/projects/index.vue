@@ -14,6 +14,10 @@
 <script setup>
 import projectsData from "../../assets/moki/projects.json";
 const projects = ref(projectsData);
+
+useHead({
+  title: 'Портфолио | Владимир | Проекты'
+})
 </script>
 
 <style scoped></style>
