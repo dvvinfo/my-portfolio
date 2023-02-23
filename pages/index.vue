@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-    <h2 class="title-1">Проекты</h2>
+    <h2 class="title-1" data-aos="fade-up">Проекты</h2>
     <ul class="projects">
       <ProjectCard
+      data-aos="flip-up"
         :project="project"
         v-for="project in projects"
         :key="project.id"

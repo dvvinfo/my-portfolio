@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     assets: "/<rootDir>/assets",
     public: "/<rootDir>/public",
   },
-  css: ["/assets/styles/main.css"],
+  css: ["/assets/styles/main.css", "aos/dist/aos.css"],
   app: {
     head: {
       title: "Портфолио | Владимир ",
@@ -21,5 +21,6 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['nuxt-swiper']
+  modules: ["nuxt-swiper"],
+  plugins: [{ src: "/plugins/aos.client.js", mode: "client", ssr: false }],
 });

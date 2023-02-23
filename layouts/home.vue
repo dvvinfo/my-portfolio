@@ -31,15 +31,15 @@
     <!-- header -->
     <header class="header">
       <div class="header__wrapper">
-        <h1 class="header__title">
+        <h1 class="header__title" data-aos="fade-up">
           <strong>Привет, меня зовут <em>Владимир</em></strong
           ><br />
           я frontend developer
         </h1>
-        <div class="header__text">
+        <div class="header__text" data-aos="fade-up">
           <p>со страстью к программированию и обучению</p>
         </div>
-        <a href="#!" class="btn">Download CV</a>
+        <a href="#!" class="btn" data-aos="fade-up">Download CV</a>
       </div>
     </header>
 
@@ -51,9 +51,9 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-          <Social />
+          <Social data-aos="fade-up" />
           <div class="copyright">
-            <p>© 2022 frontend-dev.com</p>
+            <p data-aos="fade-up">© 2022 frontend-dev.com</p>
           </div>
         </div>
       </div>
