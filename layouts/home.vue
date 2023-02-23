@@ -63,35 +63,37 @@
 
 <script setup>
 const isDark = ref(false);
+if (process.client) {
+  // 1. Проверка темной темы на уровне системных настроек
+  if (
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  ) {
+    isDark.value = true;
+  }
 
-// 1. Проверка темной темы на уровне системных настроек
-if (
-  window.matchMedia &&
-  window.matchMedia("(prefers-color-scheme: dark)").matches
-) {
-  isDark.value = true;
+  // 2. Проверка темной темы в localStorage
+  if (localStorage.getItem("darkMode") === "dark") {
+    isDark.value = true;
+  } else if (localStorage.getItem("darkMode") === "light") {
+    isDark.value = false;
+  }
+
+  // Если меняются системные настройки, меняем тему
+
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", (event) => {
+      const newColorScheme = event.matches ? "dark" : "light";
+
+      if (newColorScheme === "dark") {
+        isDark.value = true;
+        localStorage.setItem("darkMode", "dark");
+      } else {
+        isDark.value = false;
+      }
+    });
 }
-
-// 2. Проверка темной темы в localStorage
-if (localStorage.getItem("darkMode") === "dark") {
-  isDark.value = true;
-} else if (localStorage.getItem("darkMode") === "light") {
-  isDark.value = false;
-}
-
-// Если меняются системные настройки, меняем тему
-window
-  .matchMedia("(prefers-color-scheme: dark)")
-  .addEventListener("change", (event) => {
-    const newColorScheme = event.matches ? "dark" : "light";
-
-    if (newColorScheme === "dark") {
-      isDark.value = true;
-      localStorage.setItem("darkMode", "dark");
-    } else {
-      isDark.value = false;
-    }
-  });
 </script>
 
 <style lang="scss" scoped></style>

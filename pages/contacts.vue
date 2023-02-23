@@ -22,7 +22,12 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useHead({
+  title: 'Портфолио | Владимир | Контакты'
+})
+
+</script>
 
 <style scoped>
 

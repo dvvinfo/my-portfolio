@@ -1,13 +1,27 @@
 <template>
-  <div>
-    <h2>главная</h2>
+  <div class="container">
+    <h2 class="title-1">Проекты</h2>
+    <ul class="projects">
+      <ProjectCard
+        :project="project"
+        v-for="project in projects"
+        :key="project.id"
+      />
+    </ul>
   </div>
 </template>
 
 <script setup>
+import projectsData from "../assets/moki/projects.json";
 definePageMeta({
   layout: "home",
 });
+
+const projects = ref(projectsData);
+
+useHead({
+  title: 'Портфолио | Владимир'
+})
 </script>
 
 <style scoped></style>
