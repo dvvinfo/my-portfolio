@@ -39,7 +39,13 @@
         <div class="header__text" data-aos="fade-up">
           <p>со страстью к программированию и обучению</p>
         </div>
-        <a href="#!" class="btn" data-aos="fade-up">Download CV</a>
+        <NuxtLink
+          to="https://hh.ru/resume/3721bd94ff062d22010039ed1f3973364e6250"
+          class="btn"
+          data-aos="fade-up"
+          target="_blank"
+          >Посмотреть резюме</NuxtLink
+        >
       </div>
     </header>
 
@@ -53,7 +59,7 @@
         <div class="footer__wrapper">
           <Social />
           <div class="copyright">
-            <p >© 2022 frontend-dev.com</p>
+            <p>© 2022 frontend-dev.com</p>
           </div>
         </div>
       </div>

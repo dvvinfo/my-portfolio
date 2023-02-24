@@ -64,7 +64,7 @@
     "skillsDetails": ["HTML", "CSS", "Bootstrap", "Java Script"],
     "url": "https://github.com/dvvinfo/pekarstas",
     "link": "https://www.pekarstas.com/",
-    "description": "Сайт Академия Покера реазован с помощью Bootstrap "
+    "description": "Сайт Академия Покера реазован с помощью Bootstrap. "
   },
   {
     "id": 4,
@@ -78,6 +78,21 @@
     "skillsDetails": ["HTML", "CSS", "Java Script"],
     "url": "https://github.com/dvvinfo/gainnet-landing",
     "link": "https://gainnet.ru/",
-    "description": "Сайт проекта Gainet реализован на чистом CSS HTML и Java Script "
+    "description": "Сайт проекта Gainet реализован на чистом CSS HTML и Java Script. "
+  },
+  {
+    "id": 5,
+    "imgName": "porfolio",
+    "title": "Сайт Портфолио",
+    "imgNameDetails": [
+      {"id": 1, "detailsImgName": "porfolio-1"},
+      {"id": 2, "detailsImgName": "porfolio-2"},
+      {"id": 3, "detailsImgName": "porfolio-3"},
+      {"id": 4, "detailsImgName": "porfolio-4"}
+    ],
+    "skillsDetails": ["HTML", "CSS", "NuxtJS","AOS"],
+    "url": "https://github.com/dvvinfo/my-portfolio",
+    "link": "/",
+    "description": "Сайт Порфолио c анимацией  реализован  на NuxtJS. "
   }
 ]

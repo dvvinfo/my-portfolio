@@ -9,6 +9,7 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "VueJS",
+  "NuxtJS",
   "Pinia",
   "HTML",
   "PUG",
