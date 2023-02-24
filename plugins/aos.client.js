@@ -6,6 +6,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     duration: 600,
     easing: "ease-in-sine",
     delay: 100,
-    disable:  "mobile"
+    disable: window.innerWidth < 580
   });
 });
