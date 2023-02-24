@@ -59,7 +59,7 @@
         <div class="footer__wrapper">
           <Social />
           <div class="copyright">
-            <p>© 2022 frontend-dev.com</p>
+            <p>© 2021 - {{ new Date().getFullYear() }} dvvinfo</p>
           </div>
         </div>
       </div>
