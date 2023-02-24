@@ -1,10 +1,11 @@
 <template>
   <div class="project-details">
     <div class="breadcrumbs">
-      <NuxtLink to="/projects" class="btn-outline"> К проектам </NuxtLink>
+      <NuxtLink to="/projects" class="btn-outline" data-aos="fade-up"> К проектам </NuxtLink>
     </div>
-    <h1 class="title-1">{{ project.title }}</h1>
-    <div class="slier-wrapper">
+    <h1 class="title-1" data-aos="fade-up">{{ project.title }}</h1>
+    <div class="project-details-slider" data-aos="flip-up">
+      <div class="slider-wrapper" >
       <Swiper
       :modules="[SwiperAutoplay, SwiperEffectCreative, SwiperNavigation]"
       :navigation="true"
@@ -40,7 +41,7 @@
     <div class="project-details__desc">
       {{ project.description }}
     </div>
-    <div class="skills">
+    <div class="skills" data-aos="fade-up">
       <span
         class="skill"
         v-for="(skill, i) of project.skillsDetails"
@@ -48,7 +49,8 @@
         >{{ skill }}</span
       >
     </div>
-    <div class="btn-wrapper">
+    </div>
+    <div class="btn-wrapper" data-aos="fade-up">
       <NuxtLink :to="project.url" class="btn-outline mr-20" target="_blank">
         <img src="/img/icons/gitHub-black.svg" alt="" />
         GitHub repo
@@ -75,7 +77,10 @@ const { project } = defineProps(["project"]);
 .breadcrumbs {
   margin-bottom: 20px;
 }
-.slier-wrapper{
+.project-details-slider{
+  max-width: 100%;
+}
+.slider-wrapper{
   max-width: 100%;
   margin-bottom: 40px;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);

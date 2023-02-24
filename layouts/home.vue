@@ -51,9 +51,9 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
-          <Social data-aos="fade-up" />
+          <Social />
           <div class="copyright">
-            <p data-aos="fade-up">© 2022 frontend-dev.com</p>
+            <p >© 2022 frontend-dev.com</p>
           </div>
         </div>
       </div>

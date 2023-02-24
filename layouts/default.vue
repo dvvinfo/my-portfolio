@@ -34,7 +34,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper" >
-          <Social data-aos="fade-up" />
+          <Social />
           <div class="copyright" >
             <p>© 2021 - {{ new Date().getFullYear() }} dvvinfo</p>
           </div>
