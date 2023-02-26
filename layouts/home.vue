@@ -30,22 +30,24 @@
 
     <!-- header -->
     <header class="header">
-      <div class="header__wrapper">
-        <h1 class="header__title" data-aos="fade-up">
+      <div class="header__wrapper" data-aos="fade-up">
+        <h1 class="header__title">
           <strong>Привет, меня зовут <em>Владимир</em></strong
           ><br />
           я frontend developer
         </h1>
-        <div class="header__text" data-aos="fade-up">
+        <div class="header__text">
           <p>со страстью к программированию и обучению</p>
         </div>
         <NuxtLink
           to="https://hh.ru/resume/3721bd94ff062d22010039ed1f3973364e6250"
           class="btn"
-          data-aos="fade-up"
           target="_blank"
-          >Посмотреть резюме</NuxtLink
-        >
+          >Посмотреть резюме
+          </NuxtLink>
+          <div class="scroll-button">
+            <ScrollButton />
+          </div>
       </div>
     </header>
 
