@@ -69,7 +69,7 @@
   {
     "id": 4,
     "imgName": "gainet",
-    "title": "Сайт Gainet",
+    "title": "Gainet",
     "imgNameDetails": [
       {"id": 1, "detailsImgName": "gainet-1"},
       {"id": 2, "detailsImgName": "gainet-2"},
@@ -83,7 +83,7 @@
   {
     "id": 5,
     "imgName": "porfolio",
-    "title": "Сайт Портфолио",
+    "title": "Портфолио",
     "imgNameDetails": [
       {"id": 1, "detailsImgName": "porfolio-1"},
       {"id": 2, "detailsImgName": "porfolio-2"},
@@ -94,5 +94,20 @@
     "url": "https://github.com/dvvinfo/my-portfolio",
     "link": "/",
     "description": "Сайт Порфолио c анимацией  реализован  на NuxtJS. "
+  },
+  {
+    "id": 6,
+    "imgName": "afisha",
+    "title": "Afisha",
+    "imgNameDetails": [
+      {"id": 1, "detailsImgName": "afisha-1"},
+      {"id": 2, "detailsImgName": "afisha-2"},
+      {"id": 3, "detailsImgName": "afisha-3"},
+      {"id": 4, "detailsImgName": "afisha-4"}
+    ],
+    "skillsDetails": ["HTML", "SCSS", "NuxtJS","Typescript", "Pinia", "Node.js"],
+    "url": "https://github.com/openworld-community/ows-events",
+    "link": "https://afisha.peredelano.com/",
+    "description": "Сайт для поиска и размещения культурно-общественных мероприятий  реализован  на NuxtJS. "
   }
 ]
