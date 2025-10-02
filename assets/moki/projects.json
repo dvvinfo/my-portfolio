@@ -1,67 +1,74 @@
 [
   {
     "id": 0,
-    "imgName": "wheater",
-    "title": "SPA Местная погода",
+    "imgName": "afisha",
+    "title": "Afisha",
     "imgNameDetails": [
-      {"id": 1, "detailsImgName": "wheater-1"},
-      {"id": 2, "detailsImgName": "weather-2"},
-      {"id": 3, "detailsImgName": "weather-3"},
-      {"id": 4, "detailsImgName": "weather-4"},
-      {"id": 5, "detailsImgName": "weather-5"}
+      { "id": 1, "detailsImgName": "afisha-1" },
+      { "id": 2, "detailsImgName": "afisha-2" },
+      { "id": 3, "detailsImgName": "afisha-3" },
+      { "id": 4, "detailsImgName": "afisha-4" }
     ],
-    "skillsDetails": ["Vue 3", "Vite", "API mapbox и openweathermap"],
-    "url": "https://github.com/dvvinfo/weather-app-vue-3",
-    "link": "https://dvvinfo-local-weather.netlify.app/",
-    "description": "Это SPA приложение погоды на Vue 3 и Vite с использованием API mapbox и openweathermap.Местная погода позволяет вам отслеживать текущую и будущую погоду из городов по вашему выбору."
+    "skillsDetails": [
+      "HTML5",
+      "SCSS3",
+      "NuxtJS",
+      "Typescript",
+      "Pinia",
+      "Node.js"
+    ],
+    "url": "https://github.com/openworld-community/ows-events",
+    "link": "https://merakafisha.com/",
+    "description": "Сайт для поиска и размещения культурно-общественных мероприятий  реализован  на NuxtJS. "
   },
   {
     "id": 1,
-    "imgName": "ui-kit",
-    "title": "UI-KIT Vue компонентов",
+    "imgName": "nlg.kz",
+    "title": "NLG.KZ",
     "imgNameDetails": [
-      {"id": 1, "detailsImgName": "ui-kit-1"},
-      {"id": 2, "detailsImgName": "ui-kit-vue-2"},
-      {"id": 3, "detailsImgName": "ui-kit-vue-3"},
-      {"id": 4, "detailsImgName": "ui-kit-vue-4"},
-      {"id": 5, "detailsImgName": "ui-kit-vue-5"},
-      {"id": 6, "detailsImgName": "ui-kit-vue-6"},
-      {"id": 7, "detailsImgName": "ui-kit-vue-7"},
-      {"id": 8, "detailsImgName": "ui-kit-vue-8"},
-      {"id": 9, "detailsImgName": "ui-kit-vue-9"},
-      {"id": 10, "detailsImgName": "ui-kit-vue-10"}
-
+      { "id": 1, "detailsImgName": "nlg.kz-1" },
+      { "id": 2, "detailsImgName": "nlg.kz-2" },
+      { "id": 3, "detailsImgName": "nlg.kz-3" }
     ],
-    "skillsDetails": ["Vue 3", "Vite"],
-    "url": "https://github.com/dvvinfo/ui-kit-vue",
-    "link": "https://ui-kit-vue.netlify.app/",
-    "description": "В данном UI KIT VUE 3 представлены переиспользываемые компоненты.Кнопки(Buttons), чекбоксы(Checkboxes), свич(Switches), радио кнопки(RadioButtons), прогресс бар(Progress), интпуты(Inputs(), текст эрия(TextAreas), табы(Tabs), таблицы(Tables), модальное окно(Modals).Релизованные на VUE 3."
+    "skillsDetails": [
+      "HTML5",
+      "Tailwind CSS",
+      "NuxtJS",
+      "Typescript",
+      "Pinia",
+      "Node.js"
+    ],
+    "url": "",
+    "link": "https://nlg.kz/",
+    "description": "Платформа для автоматизации выплат и документооборота с исполнителями,  реализован  на NuxtJS. "
   },
   {
     "id": 2,
-    "imgName": "todo",
-    "title": "ToDo",
-    "imgNameDetails": [
-      {"id": 1, "detailsImgName": "todo-1"},
-      {"id": 2, "detailsImgName": "todo-2"},
-      {"id": 3, "detailsImgName": "todo-3"},
-      {"id": 4, "detailsImgName": "todo-4"}
+    "imgName": "aiemr",
+    "title": "AIEMR",
+    "imgNameDetails": [{ "id": 1, "detailsImgName": "aiemr" }],
+    "skillsDetails": [
+      "HTML5",
+      "SCSS",
+      "NuxtJS",
+      "Typescript",
+      "Pinia",
+      "Node.js"
     ],
-    "skillsDetails": ["Vue 3", "Vite"],
-    "url": "https://github.com/dvvinfo/todos-vue",
-    "link": "https://dvvinfo-todos.netlify.app/",
-    "description": "Vue Todos - это простое в использовании приложение для отслеживания, созданное для Vue 3. Отслеживайте выполнение своих ежедневных задач с помощью этого трекера дел с возможностью сохранения, завершения, редактирования и удаления задач."
+    "url": "",
+    "link": "https://aiemr.app/",
+    "description": "Админ - панель для клиентов сервиса AIEMR."
   },
   {
     "id": 3,
     "imgName": "pecarstas",
     "title": "Сайт Академия Покера",
     "imgNameDetails": [
-      {"id": 1, "detailsImgName": "pecarstas-1"},
-      {"id": 2, "detailsImgName": "pecarstac-2"},
-      {"id": 3, "detailsImgName": "pecarstac-3"}
+      { "id": 1, "detailsImgName": "pecarstas-1" },
+      { "id": 2, "detailsImgName": "pecarstac-2" },
+      { "id": 3, "detailsImgName": "pecarstac-3" }
     ],
-    "skillsDetails": ["HTML", "CSS", "Bootstrap", "Java Script"],
+    "skillsDetails": ["HTML5", "CSS3", "Bootstrap", "Java Script"],
     "url": "https://github.com/dvvinfo/pekarstas",
     "link": "https://www.pekarstas.com/",
     "description": "Сайт Академия Покера реазован с помощью Bootstrap. "
@@ -71,11 +78,11 @@
     "imgName": "gainet",
     "title": "Gainet",
     "imgNameDetails": [
-      {"id": 1, "detailsImgName": "gainet-1"},
-      {"id": 2, "detailsImgName": "gainet-2"},
-      {"id": 3, "detailsImgName": "gainet-3"}
+      { "id": 1, "detailsImgName": "gainet-1" },
+      { "id": 2, "detailsImgName": "gainet-2" },
+      { "id": 3, "detailsImgName": "gainet-3" }
     ],
-    "skillsDetails": ["HTML", "CSS", "Java Script"],
+    "skillsDetails": ["HTML5", "CSS3", "Java Script"],
     "url": "https://github.com/dvvinfo/gainnet-landing",
     "link": "https://gainnet.ru/",
     "description": "Сайт проекта Gainet реализован на чистом CSS HTML и Java Script. "
@@ -85,29 +92,66 @@
     "imgName": "porfolio",
     "title": "Портфолио",
     "imgNameDetails": [
-      {"id": 1, "detailsImgName": "porfolio-1"},
-      {"id": 2, "detailsImgName": "porfolio-2"},
-      {"id": 3, "detailsImgName": "porfolio-3"},
-      {"id": 4, "detailsImgName": "porfolio-4"}
+      { "id": 1, "detailsImgName": "porfolio-1" },
+      { "id": 2, "detailsImgName": "porfolio-2" },
+      { "id": 3, "detailsImgName": "porfolio-3" },
+      { "id": 4, "detailsImgName": "porfolio-4" }
     ],
-    "skillsDetails": ["HTML", "CSS", "NuxtJS","AOS"],
+    "skillsDetails": ["HTML5", "CSS3", "NuxtJS", "AOS"],
     "url": "https://github.com/dvvinfo/my-portfolio",
     "link": "/",
     "description": "Сайт Порфолио c анимацией  реализован  на NuxtJS. "
   },
   {
     "id": 6,
-    "imgName": "afisha",
-    "title": "Afisha",
+    "imgName": "wheater",
+    "title": "SPA Местная погода",
     "imgNameDetails": [
-      {"id": 1, "detailsImgName": "afisha-1"},
-      {"id": 2, "detailsImgName": "afisha-2"},
-      {"id": 3, "detailsImgName": "afisha-3"},
-      {"id": 4, "detailsImgName": "afisha-4"}
+      { "id": 1, "detailsImgName": "wheater-1" },
+      { "id": 2, "detailsImgName": "weather-2" },
+      { "id": 3, "detailsImgName": "weather-3" },
+      { "id": 4, "detailsImgName": "weather-4" },
+      { "id": 5, "detailsImgName": "weather-5" }
     ],
-    "skillsDetails": ["HTML", "SCSS", "NuxtJS","Typescript", "Pinia", "Node.js"],
-    "url": "https://github.com/openworld-community/ows-events",
-    "link": "https://afisha.peredelano.com/",
-    "description": "Сайт для поиска и размещения культурно-общественных мероприятий  реализован  на NuxtJS. "
+    "skillsDetails": ["Vue 3", "Vite", "API mapbox и openweathermap"],
+    "url": "https://github.com/dvvinfo/weather-app-vue-3",
+    "link": "https://dvvinfo-local-weather.netlify.app/",
+    "description": "Это SPA приложение погоды на Vue 3 и Vite с использованием API mapbox и openweathermap.Местная погода позволяет вам отслеживать текущую и будущую погоду из городов по вашему выбору."
+  },
+  {
+    "id": 7,
+    "imgName": "ui-kit",
+    "title": "UI-KIT Vue компонентов",
+    "imgNameDetails": [
+      { "id": 1, "detailsImgName": "ui-kit-1" },
+      { "id": 2, "detailsImgName": "ui-kit-vue-2" },
+      { "id": 3, "detailsImgName": "ui-kit-vue-3" },
+      { "id": 4, "detailsImgName": "ui-kit-vue-4" },
+      { "id": 5, "detailsImgName": "ui-kit-vue-5" },
+      { "id": 6, "detailsImgName": "ui-kit-vue-6" },
+      { "id": 7, "detailsImgName": "ui-kit-vue-7" },
+      { "id": 8, "detailsImgName": "ui-kit-vue-8" },
+      { "id": 9, "detailsImgName": "ui-kit-vue-9" },
+      { "id": 10, "detailsImgName": "ui-kit-vue-10" }
+    ],
+    "skillsDetails": ["Vue 3", "Vite"],
+    "url": "https://github.com/dvvinfo/ui-kit-vue",
+    "link": "https://ui-kit-vue.netlify.app/",
+    "description": "В данном UI KIT VUE 3 представлены переиспользываемые компоненты.Кнопки(Buttons), чекбоксы(Checkboxes), свич(Switches), радио кнопки(RadioButtons), прогресс бар(Progress), интпуты(Inputs(), текст эрия(TextAreas), табы(Tabs), таблицы(Tables), модальное окно(Modals).Релизованные на VUE 3."
+  },
+  {
+    "id": 8,
+    "imgName": "todo",
+    "title": "ToDo",
+    "imgNameDetails": [
+      { "id": 1, "detailsImgName": "todo-1" },
+      { "id": 2, "detailsImgName": "todo-2" },
+      { "id": 3, "detailsImgName": "todo-3" },
+      { "id": 4, "detailsImgName": "todo-4" }
+    ],
+    "skillsDetails": ["Vue 3", "Vite"],
+    "url": "https://github.com/dvvinfo/todos-vue",
+    "link": "https://dvvinfo-todos.netlify.app/",
+    "description": "Vue Todos - это простое в использовании приложение для отслеживания, созданное для Vue 3. Отслеживайте выполнение своих ежедневных задач с помощью этого трекера дел с возможностью сохранения, завершения, редактирования и удаления задач."
   }
 ]

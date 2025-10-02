@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="btn-wrapper" data-aos="fade-up">
-      <NuxtLink :to="project.url" class="btn-outline mr-20" target="_blank">
+      <NuxtLink v-if="project.url" :to="project.url" class="btn-outline mr-20" target="_blank">
         <img src="/img/icons/gitHub-black.svg" alt="" />
         GitHub repo
       </NuxtLink>
